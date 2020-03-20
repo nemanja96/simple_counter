@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+html {
+  height: 100%;
+  background: #fb3661;
+}
+
+/* Counter */
+#counter {
+  width: 300px;
+  height: 500px;
+  background-color: white;
+  margin: 200px auto;
+  box-shadow: 0px 0px 5px #fb3661;
+}
+#counter h1 {
+  text-align: center;
+  padding-top: 100px;
+  font-size: 3em;
+}
+#counter #count {
+  text-align: center;
+  font-size: 5em;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+#counter #plus-minus-btns {
+  display: flex;
+  justify-content: center;
+}
+#counter #plus-minus-btns #plus-btn, #counter #plus-minus-btns #minus-btn {
+  display: inline-block;
+  margin-left: 30px;
+  margin-right: 30px;
+  padding: 15px;
+  background: #fb3661;
+  border: none;
+  border-radius: 50%;
+  box-shadow: 0px 0px 20px #aaa;
+}
